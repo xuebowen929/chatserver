@@ -36,7 +36,6 @@ ChatService::ChatService()
 // 获取消息对应的处理器
 MsgHandler ChatService::getHandlerId(int msgid)
 {
-
     auto it = _msgHandlerMap.find(msgid);
 
     if (it == _msgHandlerMap.end())

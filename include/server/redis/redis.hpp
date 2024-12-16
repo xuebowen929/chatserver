@@ -6,7 +6,6 @@
 #include <functional>
 using namespace std;
 
-
 class Redis
 {
 public:
