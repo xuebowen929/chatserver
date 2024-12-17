@@ -88,7 +88,7 @@ namespace detail
 /// struct to capture the start position of the current token
 struct position_t
 {
-    /// the total number of characters read
+    /// the total number of characters read 
     std::size_t chars_read_total = 0;
     /// the number of characters read in the current line
     std::size_t chars_read_current_line = 0;
