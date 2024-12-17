@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-// User表的 ORM(映射)类
+// User表的 ORM(映射)类 
 class User{
 public:
     User(int id = -1, string name = "", string pwd = "", string state = "offline"){

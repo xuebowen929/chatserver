@@ -6,7 +6,7 @@
 #include <vector>
 class GroupModel{
 public:
-    // 创建群组
+    // 创建群组 
     bool createGroup(Group& group);
 
     // 加入群组

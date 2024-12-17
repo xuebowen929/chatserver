@@ -11,7 +11,7 @@ using namespace std;
 class MySQL
 {
 public:
-    // 初始化数据库连接
+    // 初始化数据库连接 
     MySQL();
 
     // 释放数据库连接资源

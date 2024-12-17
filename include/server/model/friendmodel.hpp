@@ -5,7 +5,7 @@
 #include <vector>
 class FriendModel{
 public:
-    // 添加好友关系
+    // 添加好友关系 
     void insert(int userid, int friendid);
 
     // 返回好友关系列表

@@ -16,7 +16,7 @@ using namespace muduo;
 using namespace muduo::net;
 using json = nlohmann::json;
 
-// 表示处理 消息 的 事件回调方法 类型
+// 表示处理 消息 的 事件回调方法 类型 
 using MsgHandler = function<void(const TcpConnectionPtr &conn, json &js, Timestamp)>; // 回调
 // 聊天服务器业务类
 class ChatService{

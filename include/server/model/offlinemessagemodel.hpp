@@ -7,7 +7,7 @@ using namespace std;
 
 class OfflineMsgModel{
 public:
-    // 存储用户离线信息
+    // 存储用户离线信息 
     void insert(int userid, string msg);
 
     // 查询用户离线信息

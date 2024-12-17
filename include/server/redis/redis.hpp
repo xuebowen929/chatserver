@@ -15,7 +15,7 @@ public:
     // 连接redis服务器 
     bool connect();
 
-    // 向redis指定的通道channel发布消息
+    // 向redis指定的通道channel发布消息 
     bool publish(int channel, string message);
 
     // 向redis指定的通道subscribe订阅消息

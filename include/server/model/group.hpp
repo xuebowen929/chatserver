@@ -6,7 +6,7 @@
 #include <vector>
 using namespace std;
 
-// group表的ORM类
+// group表的ORM类 
 class Group{
 public:
     Group(int id = -1, string name = "", string desc = ""){
